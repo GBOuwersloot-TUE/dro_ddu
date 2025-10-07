@@ -1,0 +1,69 @@
+# Build artifacts
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# Build directories
+/build/
+/bin/
+/debug/
+/release/
+/dist/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+/cmake-build-*/
+/Makefile
+cmake_install.cmake
+compile_commands.json
+
+# Visual Studio
+*.vcxproj*
+*.sln
+*.ncb
+*.sdf
+*.opensdf
+*.vcxproj.*
+*.pdb
+*.ipch
+*.user
+*.log
+
+# CLion/JetBrains IDEs
+.idea/
+*.iml
+
+# Xcode
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+
+# Qt Creator
+*.pro.user
+*.qbs.user
+*.autosave
+
+# Mac OS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VSCode
+.vscode/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
